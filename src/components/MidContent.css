@@ -1,0 +1,91 @@
+.midcontents{
+    width: 100%;
+    height: 100%;
+}
+
+.mids{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1{
+    height: 8.25%;
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec1 h4{
+    margin-left: 5px;
+    color: blue;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid blue;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.sec1 h6{
+    font-size: 1rem;
+    color: rgb(104, 103, 103);
+    margin-right: 130px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.filter{
+    background-color: white;
+    color: rgb(39, 39, 255);
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.sec2{
+    padding-top: 4px;
+    height: 11%;
+    width: 100%;
+    border: 1px solid rgb(236, 233, 233);
+}
+
+.sec2 h6{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.sec3{
+    padding-top: 4px;
+    height: 11%;
+    width: 100%;
+    border: 1px solid rgb(241, 239, 239);
+}
+
+.sec3 h6{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h6 .time {
+    color: rgb(55, 55, 255);
+    margin-left: 90px;
+}
+
+.gmail{
+    font-family: sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.gmailmid{
+    font-family: sans-serif;
+    color: rgb(43, 20, 255);
+    font-size: 0.6rem;
+}
+
+.gmaillast{
+    font-family: sans-serif;
+    color: rgb(156, 156, 156);
+}

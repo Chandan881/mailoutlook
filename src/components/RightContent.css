@@ -1,0 +1,31 @@
+.rightcontents{
+    width: 100%;
+    height: 100%;
+}
+
+.rights{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(236, 236, 236);
+}
+
+.icongrey{
+    color: grey;
+    margin-top: 40px;
+}
+
+.iconblue{
+    margin-top: 1px;
+    color: blue;
+    margin-top: 5px;
+}
+
+.icon{
+    scale: 7;
+    color: blue;
+}

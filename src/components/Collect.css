@@ -1,0 +1,6 @@
+.flxContents{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: aqua;
+}

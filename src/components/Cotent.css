@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.midcont{
+    width: 30%;
+    height: 100%;
+}
+
+.rightcont{
+    width: 70%;
+    height: 100%;
+}
+
+.junkcont{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 0, 74);
+    display: flex;
+    flex-direction: column;
+}
+
+.junkcont h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.junknav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 126, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.junkdisplay{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconjunk{
+    scale: 5;
+    color: rgb(255, 123, 204);
+}
+
+.junkdisplay p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: rgb(65, 64, 64);
+    font-size: 1.1rem;
+}
+
+
+/* drafts styling */
+
+.draftcont{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(94, 255, 0),rgb(248, 245, 38));
+    display: flex;
+    flex-direction: column;
+}
+
+.draftcont h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(15, 73, 0);
+}
+
+.draftnav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid rgb(0, 102, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.draftdisplay{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icondraft{
+    scale: 5;
+    color: rgb(0, 39, 5);
+}
+
+.draftdisplay p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: rgb(12, 31, 0);
+    font-size: 1.1rem;
+}
+
+
+
+/* sents styling */
+
+.sentcont{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(blue,pink);
+    display: flex;
+    flex-direction: column;
+}
+
+.sentcont h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(73, 0, 69);
+}
+
+.sentnav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid rgb(102, 1, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentdisplay{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsent{
+    scale: 5;
+    color: rgb(62, 0, 68);
+}
+
+.sentdisplay p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+}
+
+
+/* dels styling */
+
+.delcont{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(21, 19, 36),rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+}
+
+.delcont h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(221, 217, 217);
+    margin-right: 600px;
+}
+
+.delnav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid rgb(122, 122, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deldisplay{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icondel{
+    scale: 5;
+    color: rgb(250, 3, 3);
+}
+
+.deldisplay p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: rgb(255, 2, 36);
+    font-size: 1.1rem;
+}
+
+
+/* actives styling */
+
+.activecont{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(59, 34, 255),rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+}
+
+.activecont h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(181, 168, 255);
+}
+
+.activenav{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activedisplay{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconactive{
+    scale: 7;
+    color: rgb(97, 97, 97);
+}
+
+.activedisplay p{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    color: rgb(73, 73, 73);
+    font-size: 1.1rem;
+}

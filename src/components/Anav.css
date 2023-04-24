@@ -1,0 +1,16 @@
+.Anav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Anavu{
+    width: 100%;
+    height: 50%;
+}
+
+.Anavl{
+    width: 100%;
+    height: 50%;
+}
